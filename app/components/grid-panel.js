@@ -1,0 +1,1 @@
+export { default } from 'ember-configurable-panels/components/grid-panel';

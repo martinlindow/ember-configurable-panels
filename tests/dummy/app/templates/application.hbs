@@ -1,3 +1,9 @@
-<h2 id="title">Welcome to Ember</h2>
-
+<div class="container">
+  <h1>Sample Panel</h1>
+  <div class="row">
+    <div class="col-md-8">
+      {{grid-panel title="Exception Status" columns=3 items=items item_component="test-component" itemActions=itemActions addItemAction=this.actions.addItem}}
+    </div>
+  </div>
+</div>
 {{outlet}}

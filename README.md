@@ -1,7 +1,8 @@
 ember-configurable-panels
 ==============================================================================
 
-[Short description of the addon.]
+This addon can be used to define bootstrap 3 based panels that can be 
+configured and contain dynamic items
 
 
 Compatibility
@@ -23,16 +24,16 @@ ember install ember-configurable-panels
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+{{grid-panel 
+    title="Exception Status" 
+    columns=3 
+    items=items 
+    item_component="test-component" 
+    itemActions=itemActions 
+    addItemAction=this.actions.addItem}}
 
 
 Contributing
 ------------------------------------------------------------------------------
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
-
-
-License
-------------------------------------------------------------------------------
-
-This project is licensed under the [MIT License](LICENSE.md).

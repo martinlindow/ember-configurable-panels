@@ -1,0 +1,29 @@
+.panel-primary {
+    border: 1px solid #1992D4;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.card {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    color: #1F2933;
+    border: 1px solid #1F2933;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.btn-circle {
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 2px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+  }

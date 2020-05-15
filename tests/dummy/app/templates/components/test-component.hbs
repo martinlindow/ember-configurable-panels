@@ -1,0 +1,27 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
+      {{item}}
+      <div class="pull-right">
+        <BsDropdown as |dd|>
+          <dd.toggle><button class="btn btn-default btn-circle">{{fa-icon "ellipsis-v"}}</button></dd.toggle>
+          <dd.menu as |ddm|>
+            <ddm.item>
+              <a role="button">{{fa-icon "edit"}} Edit</a>
+            </ddm.item>
+            <ddm.item>
+              <a role="button">{{fa-icon "refresh"}} Refresh</a>
+            </ddm.item>
+            <ddm.item>
+              <a role="button">{{fa-icon "clone"}} Duplicate</a>
+            </ddm.item>
+            <ddm.item>
+              <a role="button">{{fa-icon "trash"}} Delete</a>
+            </ddm.item>
+          </dd.menu>
+        </BsDropdown>
+      </div>
+    </h5>
+    <h1 class="large text-center">{{number}}</h1>
+  </div>
+</div>
